@@ -1,0 +1,114 @@
+    1  cd
+    2  mkdir /opt ViacheslavWeber
+    3  gpgconf
+    4  echo GETPIN | pinentry
+    5  git config --global user.email "tkacvaceslav018@gmail.com
+    6  git config --global user.email "tkacvaceslav018@gmail.com
+    7  git config --global user.name "vv184"
+    8  git branch -m master main
+    9  cd C:\Usera\Startklar\PyCharmMiscProject\121225ptn
+   10  cd C:\Users\Startklar\PyCharmMiscProject\121225ptn
+   11  cd C:\Users\Startklar\PyCharmMiscProject\121225ptn
+   12  cd C:\Users\Startklar\PyCharmMiscProject
+   13  cd /c/Users/Startklar/PyCharmMiscProject
+   14  ls -a
+   15  cd /c/Users/Startklar/PyCharmMiscProject/121225ptn
+   16  ls -a
+   17  git branch -m master main
+   18  git push -u 121225ptn main
+   19  git status
+   20  git add .
+   21  git status
+   22  git push -u 121225ptn main
+   23  git push -u /121225ptn main
+   24  git push 121225ptn HEAD:main
+   25  git branch -vv
+   26  git commit -m "ptn"
+   27  git push
+   28  git remote add vv184 https://github.com/vv184/121225ptn
+   29  git push 0302262
+   30  git push -u 
+   31  git push --set-upstream vv184 main
+   32  branch 'main' set up to track 'vv184/main'.
+   33  git commit 0302262 "ptn"
+   34  git commit -m "ptn"
+   35  ls -la
+   36  ssh-keygen
+   37  git remote add origin git@github.com:vv184/git_intro.git
+   38  mkdir git_intro
+   39  cd git_intro/
+   40  git init
+   41  ls
+   42  ls
+   43  git add.
+   44  git add .
+   45  git status
+   46  git commit -m "Added photo"
+   47  git branch -M main
+   48  git remote add origin git@github.com:vv184/git_intro.git
+   49  git push -u origin main
+   50  ls ~/.ssh
+   51  ssh-keygen -t ed25519 -C "tkacvaceslav018@gmail.com"
+   52  eval "$(ssh-agent -s)"
+   53  ssh-add ~/.ssh/id_ed25519
+   54  cat ~/.ssh/id_ed25519.pub
+   55  ssh -T git@github.com
+   56  git push -u origin main
+   57  mkdir git-branch
+   58  cd git-branch/
+   59  git init
+   60  git remote add origin git@github.com:vv184/git-branch.git
+   61  git branch -M main
+   62  git checkout -b gitignore
+   63  git add .gitignore
+   64  git add .gitignore/
+   65  git commit -m "Add .gitignore file"
+   66  git push -u origin gitignore 
+   67  git rm gitignore
+   68  git add .gitignore 
+   69  git rm -m .gitignore 
+   70  git rm -r .gitignore 
+   71  git add .gitignore
+   72  git commit -m "Add .gitignore file"
+   73  git push -u origin gitignore 
+   74  git pull origin gitignore 
+   75  git add .gitignore 
+   76  git push - u origin gitignore 
+   77  git pull origin gitignore 
+   78  git add .
+   79  git merge --abort
+   80  git status
+   81  git pull origin gitignore --allow-unrelated-histories
+   82  git pull origin gitignore --allow-unrelated-histories
+   83  git clone https://github.com/vv184/githw.git
+   84  touch .gitignore
+   85  git add .gitignore
+   86  git add .
+   87  cd githw
+   88  touch .gitignore
+   89  git add.
+   90  git add .
+   91  git commit -m "add .gitignore"
+   92  git push origin main
+   93  git clone https://github.com/vv184/git_hw.git
+   94  cd git_hw/
+   95  touch .gitignore
+   96  nano .gitignore 
+   97  git add .
+   98  git add .gitignore
+   99  git commit -m "add .gitignore"
+  100  git push origin main
+  101  git checkout -b feature
+  102  touch README.md
+  103  echo "readme" >> README.md 
+  104  git add README.md 
+  105  git add .
+  106  git commit -m "add README.md"
+  107  git push origin feature
+  108  git commit --amend -m "add README.md ammend"
+  109  git push origin feature --force
+  110  git checkout main
+  111  git pull origin main
+  112  git merge feature
+  113  git push origin main
+  114  history > history.txt
